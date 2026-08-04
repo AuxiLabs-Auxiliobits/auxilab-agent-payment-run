@@ -88,9 +88,6 @@ commands above work out of the box. To use a hosted LLM for the narrative, see
 ```bash
 pip install pytest
 pytest -q
-
-or
-
 python -m pytest tests/ -v
 ```
 
