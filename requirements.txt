@@ -4,7 +4,7 @@
 pandas>=2.2.2
 numpy>=1.26
 python-dotenv>=1.0.0
-
+pytest
 # NOTE: the web UI (`python app.py`) uses ONLY the Python standard library
 # (http.server) - there are deliberately NO web-framework dependencies here.
 # This avoids the Gradio / huggingface_hub / pydantic version breakage and lets
