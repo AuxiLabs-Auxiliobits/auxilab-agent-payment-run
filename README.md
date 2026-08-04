@@ -21,6 +21,8 @@ produces a controller **authorisation pack** with a CFO-ready narrative.
 python -m venv .venv && source .venv/bin/activate    # optional but recommended
 pip install -r requirements.txt
 
+pip install -r requirements-llm.txt
+
 # 2. run against a payment batch (CSV or JSON)
 python run.py --batch path/to/your_batch.csv
 ```
