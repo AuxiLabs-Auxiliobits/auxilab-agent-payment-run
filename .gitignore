@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# Payment batches (keep the folder + its README, ignore real data)
+data/*
+!data/README.md
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+runtime/outputs/*
+runtime/uploads/*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/

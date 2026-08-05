@@ -1,0 +1,6 @@
+# Optional LLM provider SDKs.
+# Install these only if you set LLM_PROVIDER to a remote provider.
+#   pip install -r requirements-llm.txt
+anthropic>=0.39.0
+groq>=0.11.0
+openai>=1.40.0

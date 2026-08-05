@@ -1,0 +1,18 @@
+# Core validation engine (required)
+# pandas >= 2.2 ships prebuilt wheels for Python 3.11/3.12/3.13, which avoids
+# the source build that produced the Cython/NumPy compile error.
+pandas>=2.2.2
+numpy>=1.26
+python-dotenv>=1.0.0
+pytest
+# NOTE: the web UI (`python app.py`) uses ONLY the Python standard library
+# (http.server) - there are deliberately NO web-framework dependencies here.
+# This avoids the Gradio / huggingface_hub / pydantic version breakage and lets
+# the UI run on any supported Python (3.9-3.13) with nothing extra to install.
+
+# Optional LLM providers - install only the one you use.
+# The default provider is the offline "template", so none of these are needed
+# to run the tool end to end.
+# anthropic>=0.39.0
+# groq>=0.11.0
+# openai>=1.40.0
