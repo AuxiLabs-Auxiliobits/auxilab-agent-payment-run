@@ -1,0 +1,16 @@
+# Optional convenience wrapper. Docker is NOT required to run the tool.
+services:
+  prepay-validator:
+    build: .
+    image: prepay-validator
+    ports:
+      - "7860:7860"
+    environment:
+      # Override to anthropic/groq/openai and supply the matching key.
+      LLM_PROVIDER: ${LLM_PROVIDER:-template}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    volumes:
+      - ./reference_data:/app/reference_data
+      - ./outputs:/app/outputs

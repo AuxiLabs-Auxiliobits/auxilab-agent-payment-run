@@ -1,43 +1,27 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-dist/
 *.egg-info/
 .eggs/
-*.egg
-
-# Virtual environments
-.env
-.venv
-env/
+.venv/
 venv/
+env/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Environment
+.env
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
+# Payment batches (keep the folder + its README, ignore real data)
+data/*
+!data/README.md
 
-# Secrets — never commit these
-.env.local
-secrets.json
-*_secret*
-*_key*
+# Outputs
+outputs/*
+!outputs/.gitkeep
+runtime/outputs/*
+runtime/uploads/*
 
-# OS
+# OS / editor
 .DS_Store
-Thumbs.db
-
-# AuxiLab demo outputs
-demo_output/
-*.demo.json
+.idea/
+.vscode/
+.pytest_cache/
