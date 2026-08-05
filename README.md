@@ -579,3 +579,15 @@ Built and maintained by:
 Released under the **MIT License** - see [`LICENSE`](LICENSE). You are free to
 use, modify and distribute this tool, including commercially, provided the
 copyright and licence notice are retained.
+
+
+---
+
+## Built By
+
+| Name | GitHub |
+|------|--------|
+| Anand Choudhary | [@anandchoudhary-751](https://github.com/anandchoudhary-751) |
+| Chirag Singh | [@Chirag008102002Singh](https://github.com/Chirag008102002Singh) |
+
+Built during the **AuxiLab Founding Hackathon** by [Auxiliobits Technologies](https://auxiliobits.com) · [AuxiLab Catalogue](https://auxiliobits.com/auxilab)
